@@ -6,6 +6,13 @@ Or use [Homebrew](https://brew.sh):
 brew install erlang
 ```
 
+*NOTE*: due to a `brew` issue you need to open permission on the erlang
+directory. Otherwise builds will fail with `eaccess` errors
+
+```
+chmod -R ug+rwX /usr/local/Cellar/erlang/
+```
+
 It depends on sed, the stream editor
 ```
 brew install gnu-sed --with-default-names
