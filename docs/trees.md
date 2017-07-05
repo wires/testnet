@@ -1,4 +1,4 @@
-There are 8 merkel trees.
+There are 8 merkle trees.
 
 * oracles+
 * orders
@@ -29,7 +29,7 @@ This tree stores channels by an integer channel id.
 
 === accounts
 
-This tree stores accounts by integer id. Each account has 2 merkel roots written in them. One is for a shares tree, the other is for an oracle bets tree.
+This tree stores accounts by integer id. Each account has 2 merkle roots written in them. One is for a shares tree, the other is for an oracle bets tree.
 
 === oracle bets
 
